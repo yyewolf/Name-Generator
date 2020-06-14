@@ -5,7 +5,8 @@ const (
 	MainEndpoint = "https://www.namegenerator2.com/application/p.php"
 )
 
-//All the URLs
+//All the URLs corresponding to each generators.
+//The type field useage is not known.
 var (
 	EndpointLastNames = func() string {
 		return MainEndpoint + "?type=1&id=last_names&spaceflag=false"

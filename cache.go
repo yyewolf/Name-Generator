@@ -10,7 +10,8 @@ type cacheType struct {
 	l sync.Mutex
 }
 
-//Session is there to keep the caches
+//Session is there to keep the caches.
+//Nothing is useful for the user besides the functions.
 type Session struct {
 	lastNames    cacheType
 	cityNames    cacheType

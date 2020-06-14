@@ -1,16 +1,9 @@
 package namegenerator
 
 import (
-	"errors"
 	"io/ioutil"
 	"net/http"
 	"strings"
-)
-
-// All error constants
-var (
-	ErrError   = errors.New("Error")
-	ErrInvalid = errors.New("Invalid")
 )
 
 // request makes a (GET) Requests to namegenerator2 REST API.

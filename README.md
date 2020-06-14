@@ -10,7 +10,7 @@ This assumes you already have a working Go environment, if not please see
 [this page](https://golang.org/doc/install) first.
 
 ```sh
-go get github.com/yyewolf/NameGenerator
+go get github.com/yyewolf/Name-Generator
 ```
 
 ### Usage
@@ -18,7 +18,7 @@ go get github.com/yyewolf/NameGenerator
 Import the package into your project.
 
 ```go
-import "github.com/yyewolf/NameGenerator"
+import "github.com/yyewolf/Name-Generator"
 ```
 
 Construct a new Session that will contain a cache and the functions
@@ -32,5 +32,5 @@ See Documentation below for more detailed information.
 
 ## Documentation
 
-- [![GoDoc](https://godoc.org/github.com/yyewolf/namegenerator?status.svg)](https://godoc.org/github.com/yyewolf/namegenerator) 
-- [![Go Walker](http://gowalker.org/api/v1/badge)](https://gowalker.org/github.com/yyewolf/namegenerator)
+- [![GoDoc](https://godoc.org/github.com/yyewolf/Name-Generator?status.svg)](https://godoc.org/github.com/yyewolf/Name-Generator) 
+- [![Go Walker](http://gowalker.org/api/v1/badge)](https://gowalker.org/github.com/yyewolf/Name-Generator)

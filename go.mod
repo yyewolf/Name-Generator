@@ -1,3 +1,3 @@
-module github.com/yyewolf/NameGenerator
+module github.com/yyewolf/Name-Generator
 
 go 1.16
